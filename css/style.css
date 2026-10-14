@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(latar);
+  color: var(teks);
+  line-height: 1.6;
+}
+
+header, footer {
+  background: var(kartu);
+  padding: 15px 5%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+nav a {
+  margin: 0 7px;
+  text-decoration: none;
+  color: var(teks);
+}
+
+button, .tombol {
+  background: var(aksen);
+  color: rgb(187, 22, 22);
+  border: none;
+  border-radius: 6px;
+  padding: 10px 14px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button:hover, .tombol:hover {
+  opacity: 0.8;
+}
+
+main {
+  max-width: 1000px;
+  margin: 25px auto;
+  padding: 0 18px;
+}
+
+.profil, .kartu {
+  background: var(kartu);
+  padding: 24px;
+  margin-bottom: 20px;
+  border: 1px solid #0c0c0c;
+  border-radius: 12px;
+}
+
+.profil {
+  text-align: center;
+}
+
+
+
