@@ -50,7 +50,7 @@ main {
 
 .profil, .kartu {
   background: var(kartu);
-  padding: 24px;
+  padding: 26px;
   margin-bottom: 20px;
   border: 1px solid #0c0c0c;
   border-radius: 12px;
